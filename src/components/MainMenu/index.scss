@@ -57,7 +57,7 @@
   &__item {
     font-weight: $bold-font-weight;
     height: 100%;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
     a {
       text-decoration: none;
@@ -145,12 +145,12 @@
   &__user {
     &--active * {
       fill: $green;
-      fill-rule: inherit;
+      fill-rule: border;
     }
   }
 
   &__dropdown {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: $bold-font-weight;
 
     li {
@@ -172,7 +172,7 @@
     padding: $spacer;
 
     span {
-      text-transform: uppercase;
+      text-transform: capitalize;
       font-weight: $bold-font-weight;
       vertical-align: bottom;
     }
@@ -257,7 +257,7 @@
         > a {
           font-size: $base-font-size;
           position: relative;
-          text-transform: uppercase;
+          text-transform: capitalize;
           padding-bottom: 9px;
           margin-bottom: 3px;
         }
